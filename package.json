@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-pipeline-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusSilva011/jenkins-pipeline-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusSilva011/jenkins-pipeline-nodejs/issues"
+  },
+  "homepage": "https://github.com/ViniciusSilva011/jenkins-pipeline-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
