@@ -10,7 +10,7 @@ node {
     } catch(e) {
         currentBuild.result = "FAILURE";
         
-        slackSend(color: '#FF0000', message: "Failed: JOB '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+        slackSend(color: '#FF0000', message: "Failed: JOB '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL}), env: ${env}")
         
         throw e;
     }
